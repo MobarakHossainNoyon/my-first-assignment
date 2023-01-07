@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
 
     
 }
@@ -94,7 +95,7 @@ height: 162px;
     margin: 130px 230px 0 230px;
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../images/watch.png');
     border-radius: 5px;
-   
+  
 }
 .watch-info{
     padding: 30px 615px 60px 65px;
