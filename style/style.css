@@ -1,0 +1,29 @@
+.header{
+    
+    background-image: url('/images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-info{
+    width: 550px;
+    margin-left: 920px;
+    margin-right: 230px;
+    text-align: right;
+    padding-top: 220px;
+    
+}
+.header-title{
+    font-weight: 700;
+font-size: 65px;
+color: white;
+}
+.header-description{
+    font-weight: 400;
+font-size: 20px;
+color: #FFFFFF;
+}
+.btn-primary{
+    width: 160px;
+    height: 65px;
+    color: #005FAC;
+}
