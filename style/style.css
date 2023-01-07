@@ -4,7 +4,7 @@
 /* Header style */
 .header{
     
-    background-image: url('/images/banner/banner3.png');
+    background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -90,7 +90,7 @@ height: 162px;
     height: 300px;
     margin: 130px 230px 0 230px;
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    background-image: url('/images/watch.png');
+    background-image: url('../images/watch.png');
     background-blend-mode: multiply;
 }
 .watch-info{
