@@ -36,6 +36,7 @@
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 180px;
+    border-radius: 8px;
 }
 /* failer section styles */
 .failer-container{
@@ -89,12 +90,12 @@ height: 162px;
     width: 1140px;
     height: 300px;
     margin: 130px 230px 0 230px;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    background-image: url('../images/watch.png');
-    background-blend-mode: multiply;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../images/watch.png');
+    border-radius: 5px;
+   
 }
 .watch-info{
-    padding: 60px 615px 60px 65px;
+    padding: 30px 615px 60px 65px;
 }
 .watch-title{
     font-weight: 700;
@@ -147,5 +148,6 @@ input{
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+    border-radius: 8px;
 }
 
