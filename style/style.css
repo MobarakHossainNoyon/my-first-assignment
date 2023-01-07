@@ -1,8 +1,13 @@
+*{
+    font-family: 'Work Sans';
+}
+/* Header style */
 .header{
     
     background-image: url('/images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .header-info{
     width: 550px;
@@ -11,19 +16,136 @@
     text-align: right;
     padding-top: 220px;
     
+    
 }
 .header-title{
     font-weight: 700;
-font-size: 65px;
-color: white;
+    font-size: 65px;
+    color: white;
 }
 .header-description{
     font-weight: 400;
-font-size: 20px;
-color: #FFFFFF;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
 }
 .btn-primary{
     width: 160px;
     height: 65px;
     color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 180px;
 }
+/* failer section styles */
+.failer-container{
+    display: flex;
+    justify-content: space-around;
+    width: 1072px;
+height: 723.3px;
+margin: 130px 230px 0 230px;
+
+}
+.failer-info{
+    padding: 200px 0px 0 80px;
+    text-align: left;
+
+}
+.failer-title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+}
+.failer-description{
+    font-weight: 400;
+font-size: 20px;
+width: 349px;
+height: 162px;
+}
+/* plan section styles */
+
+.plan-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 230px 0 230px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+}
+/* watch container style */
+.watch-container{
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px 0 230px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-image: url('/images/watch.png');
+    background-blend-mode: multiply;
+}
+.watch-info{
+    padding: 60px 615px 60px 65px;
+}
+.watch-title{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+}
+/* footer-container styles*/
+.footer{
+    background: #151414;
+    margin-top: 130px;
+}
+.footer-container{
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-info{
+    width: 485px;
+    height: 317px;
+    
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.email-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+input{
+    width: 325px;
+    height: 64px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.footer-button{
+    width: 170px;
+    height: 64px;
+    margin-top: 10px;
+    background-color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
